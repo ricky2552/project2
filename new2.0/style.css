@@ -23,6 +23,10 @@ a:hover {
 
 /* Header Style */
 
+#line {
+	color: white
+}
+
 #page_header {
 	margin : 0px auto;
 	width : 753px;
@@ -340,7 +344,7 @@ a:hover {
 
 #maincol_top {
 	margin-top : 13px;
-	width : 600px;
+	width : 560px;
 	height : 137px;
 	background : url('images/maincol_bg.gif') repeat-x 0px 0px;
 	overflow : hidden;
@@ -364,10 +368,10 @@ p {
 }
 #maincol_top .content {
 	position : absolute;
-	margin-left : 95px;
-	line-height: 1.2;
-	width : 455px;
-	height:98px;
+	margin-left : 30px;
+	line-height: 1.8;
+	width : 500px;
+	height: 90px;
 	color : #000000;
 	font-size:19px ;
 }
@@ -393,7 +397,6 @@ h5 {
 
 .maincol_box {
 	width : 560px;
-	background : url('images/maincol_vline.gif') #fff repeat-y 180px 0px;
 	overflow : hidden;
 }
 
@@ -603,6 +606,14 @@ h5 {
 
 
 .borderbox {
+	clear : both;
+	float : none;
+	margin-top : 13px;
+	border : #A5A4A4 1px solid;
+	width :560px
+}
+
+.borderbox1 {
 	clear : both;
 	float : none;
 	margin-top : 13px;
