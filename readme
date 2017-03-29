@@ -1,0 +1,19 @@
+A series of web server examples
+
+simplest - http.js
+
+a bit more complex - express.js
+
+adding ejs templating - ejs_example.js
+
+adding mysql access - sql_ejs_example.js
+
+for all of them, the setup is the same:
+
+clone them onto your server (which must have nodejs and npm installed. Tested with nodejs v6.10.0 and npm 3.10.10 but should be fine with others.)
+
+from the root of the project: npm installed
+
+then "node http.js" or whichever one you want to view.
+
+For the untangling class - make sure that you have forked into your own project and edited the port numbers to those in the email you received.

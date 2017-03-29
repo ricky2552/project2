@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>this is an about page</h1>
+            <p><%= sentence %></p>
+        </div>
+        <h2>Loop</h2>
+        <ul>
+            <% drinks.forEach(function(drink) { %>
+                <li><%= drink.name %> - <%= drink.drunkness %></li>
+            <% }); %>
+        </ul>
+    </main>
+
+
+    
+</body>
+</html>
