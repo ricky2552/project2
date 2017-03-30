@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Best Sellers</h1>
+            
+        </div>
+        <form action="/query" method="post">
+            <h2>Query<h2>
+            <label for="queryStr">Enter seller name</label>
+            <input id="queryStr" type="text" name="queryStr" placeholder="Search">
+            <button id="execute" type="submit">Go!</button>
+        </form>
+
+        <h2>Results</h2>
+        <ul>
+            <% listings.forEach(function(item) { %>
+                <li><%= item.subject %> - <%= item.seller %> - <%= item.title %></li>
+            <% }); %>
+        </ul>
+    </main>
+
+
+    
+</body>
+</html>
