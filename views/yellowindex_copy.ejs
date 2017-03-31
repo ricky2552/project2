@@ -11,16 +11,26 @@
         <div class="jumbotron">
             <img src="LOL_icon.png" height="47">
             <img src="LOL_text.png">
+            
+<div id="page_menu">
+  <ul id="menu">
+    <li><img id="home" src="images/menu_home.gif" width="31" height="14" alt="" /></a></li>
+    <li><img id="best_sellers" src="images/menu_bestsellers.gif" width="59" height="14" alt="" /></a></li>
+    <li><img id="ebooks" src="images/menu_ebooks.gif" width="44" height="14" alt="" /></a></li>
+    <li><img id="contact" src="images/menu_contact.gif" width="41" height="14" alt="" /></a></li>
+  </ul>
+</div>
+<br>
             <h1>Best Sellers</h1>
-            <br>
         </div>
+        
         <form action="/query" method="post">
-            <h2>Query<h2>
+            <br>
             <label for="queryStr">Enter seller name</label>
             <input id="queryStr" type="text" name="queryStr" placeholder="Search">
             <button id="execute" type="submit">Go!</button>
         </form>
-
+<br>
         <h2>Results</h2>
         <ul>
             <% listings.forEach(function(item) { %>

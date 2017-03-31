@@ -13,5 +13,35 @@ body {
 }
 img{
 	padding-bottom: 0px;
-	padding-right: 50px;
+	padding-right: 40px;
+}
+#page_menu {
+	margin : 0px auto;
+	width : 684px;
+	height : 35px;
+	float : none;
+	clear : both;
+}
+#page_menu ul {
+	height : 35px;
+	text-align: center;
+}
+#page_menu li {
+	padding : 12px 24px 0px;
+	height : 14px;
+	float : left;
+	display : block;
+	position: relative;
+}
+#home{
+	padding-left: 50px;
+}
+#best_sellers{
+	padding-left: 30px;
+}
+#ebooks{
+	padding-left: 30px;
+}
+#contact{
+	padding-left: 20px;
 }
